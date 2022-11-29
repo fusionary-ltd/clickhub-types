@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "author": "ClickInvest",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^4.9.3"
   },
   "exports": {
