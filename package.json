@@ -4,10 +4,6 @@
   "description": "ClickHub Types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "npx --yes tsc -p .",
-    "postinstall": "npm run build"
-  },
   "author": "ClickInvest",
   "license": "MIT",
   "devDependencies": {
